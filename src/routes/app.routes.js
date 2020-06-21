@@ -6,7 +6,9 @@ import Home from "../pages/Home";
 const AppTabs = createBottomTabNavigator();
 
 export default function AppRoutes() {
-  <AppTabs.Navigator>
-    <AppTabs.Screen name="Home" component={Home} />
-  </AppTabs.Navigator>;
+  return (
+    <AppTabs.Navigator>
+      <AppTabs.Screen name="Home" component={Home} />
+    </AppTabs.Navigator>
+  );
 }
