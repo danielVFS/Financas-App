@@ -23,8 +23,8 @@ export const Input = styled.TextInput.attrs({
   placeholderTextColor: "rgba(255,255,255,0.20)",
 })`
   background-color: rgba(0, 0, 0, 0.7);
-  width: 90%;
   font-size: 17px;
+  width: 90%;
   color: #fff;
   margin-bottom: 15px;
   padding: 10px;

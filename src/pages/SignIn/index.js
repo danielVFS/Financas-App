@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { Platform } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import Icon from "react-native-vector-icons/MaterialIcons";
 
 import { AuthContext } from "../../contexts/auth";
 
