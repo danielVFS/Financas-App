@@ -39,7 +39,7 @@ export const NewLink = styled.TouchableOpacity`
 export const NewText = styled.Text`
   font-size: 18px;
   font-weight: bold;
-  color: #000;
+  color: #fff;
 `;
 
 export const Logout = styled.TouchableOpacity`
